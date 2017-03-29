@@ -1,0 +1,25 @@
+{
+  "name": "caas",
+  "version": "1.0.0",
+  "description": "Components As a Service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidseik/caas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidseik/caas/issues"
+  },
+  "homepage": "https://github.com/davidseik/caas#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "handlebars": "^4.0.6",
+    "walkdir": "0.0.11"
+  }
+}
